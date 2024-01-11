@@ -1,7 +1,7 @@
 import { LoginForm } from "@/components/auth/login-form";
 import React from "react";
 
-function LoginPage() {
+function RegisterPage() {
   return (
     <div>
       <LoginForm />
@@ -9,4 +9,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default RegisterPage;
