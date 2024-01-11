@@ -30,7 +30,7 @@ export const RegisterForm = () => {
       password: "",
       name: "",
     },
-  });
+  }); 
 
   const onSubmit = (values: z.infer<typeof RegisterSchema>) => {
     setError("");
