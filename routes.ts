@@ -1,7 +1,7 @@
 /**
  * @type {string[]}
  */
-export const publicRoutes = ["/"];
+export const publicRoutes = ["/", "/auth/new-verification"];
 /**
  * @type {string[]}
  */

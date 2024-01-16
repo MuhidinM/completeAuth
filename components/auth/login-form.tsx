@@ -24,7 +24,7 @@ export const LoginForm = () => {
   const searchParams = useSearchParams();
   const urlError =
     searchParams.get("error") === "OAuthAccountNotLinked"
-      ? "Email already in use with different provider"
+      ? "Email already in use with different provider!"
       : "";
   const [error, setError] = useState<string | undefined>("");
   const [success, setSuccess] = useState<string | undefined>("");
@@ -43,8 +43,8 @@ export const LoginForm = () => {
 
     startTransition(() => {
       login(values).then((data) => {
-        setError(data.error);
-        setSuccess(data.success);
+        setError(data?.error);
+        setSuccess(data?.success);
       });
     });
   };
