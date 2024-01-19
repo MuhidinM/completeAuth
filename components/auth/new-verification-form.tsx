@@ -31,7 +31,7 @@ export const NewVerificationForm = () => {
   }, [onSubmit]);
   return (
     <CardWrapper
-      headerLable="Comfirming your verification"
+      headerLable="Confirming your verification"
       backButtonLable="Back to login"
       backButtonHref="/auth/login"
     >
