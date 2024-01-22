@@ -10,7 +10,7 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { FaUser } from "react-icons/fa";
 import { useCurrentUser } from "@/hooks/use-current-user";
-import { LogoutButton } from "./logut-button";
+import { LogoutButton } from "./logout-button";
 import { ExitIcon } from "@radix-ui/react-icons";
 
 export const UserButton = () => {
